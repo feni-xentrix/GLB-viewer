@@ -1,0 +1,812 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4330,
+      "max": [
+        3.594679117202759,
+        14.908513069152832,
+        3.9458694458007813
+      ],
+      "min": [
+        -3.7004525661468506,
+        9.756553649902344,
+        -3.973695755004883
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 51960,
+      "componentType": 5126,
+      "count": 4330,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 4330,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4330,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6150,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 103920,
+      "componentType": 5126,
+      "count": 351,
+      "max": [
+        3.4297499656677246,
+        15.048084259033203,
+        3.396785259246826
+      ],
+      "min": [
+        -3.4297499656677246,
+        10.885475158691406,
+        -3.462714910507202
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 108132,
+      "componentType": 5126,
+      "count": 351,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 69280,
+      "componentType": 5126,
+      "count": 351,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 34640,
+      "componentType": 5126,
+      "count": 351,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24600,
+      "componentType": 5125,
+      "count": 528,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 112344,
+      "componentType": 5126,
+      "count": 544,
+      "max": [
+        8.868069648742676,
+        13.00338363647461,
+        2.412868022918701
+      ],
+      "min": [
+        -8.868069648742676,
+        9.689482688903809,
+        -2.6498913764953613
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 118872,
+      "componentType": 5126,
+      "count": 544,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 74896,
+      "componentType": 5126,
+      "count": 544,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 37448,
+      "componentType": 5126,
+      "count": 544,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 26712,
+      "componentType": 5125,
+      "count": 684,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 125400,
+      "componentType": 5126,
+      "count": 549,
+      "max": [
+        11.304730415344238,
+        9.95024299621582,
+        1.7337697744369507
+      ],
+      "min": [
+        -11.304730415344238,
+        5.186334133148193,
+        -1.7678582668304443
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 131988,
+      "componentType": 5126,
+      "count": 549,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 83600,
+      "componentType": 5126,
+      "count": 549,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 41800,
+      "componentType": 5126,
+      "count": 549,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 29448,
+      "componentType": 5125,
+      "count": 672,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 138576,
+      "componentType": 5126,
+      "count": 1808,
+      "max": [
+        10.87446403503418,
+        10.87446403503418,
+        1.4591567516326904
+      ],
+      "min": [
+        -10.87446403503418,
+        -10.87446403503418,
+        -1.4629665613174438
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 160272,
+      "componentType": 5126,
+      "count": 1808,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 92384,
+      "componentType": 5126,
+      "count": 1808,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 46192,
+      "componentType": 5126,
+      "count": 1808,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32136,
+      "componentType": 5125,
+      "count": 3072,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "fab-model-conversion",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 44424,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 60656,
+      "byteOffset": 44424,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 181968,
+      "byteOffset": 105080,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 121312,
+      "byteOffset": 287048,
+      "byteStride": 16,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 408360,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_emissive_strength",
+    "KHR_materials_specular"
+  ],
+  "images": [
+    {
+      "uri": "textures/Prongs_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Prongs_metallicRoughness.jpeg"
+    },
+    {
+      "uri": "textures/Prongs_normal.jpeg"
+    },
+    {
+      "uri": "textures/ThinRing_baseColor.png"
+    },
+    {
+      "uri": "textures/ThinRing_metallicRoughness.jpeg"
+    },
+    {
+      "uri": "textures/ThinRing_emissive.jpeg"
+    },
+    {
+      "uri": "textures/ThinRing_normal.jpeg"
+    },
+    {
+      "uri": "textures/ThinRing1_baseColor.png"
+    },
+    {
+      "uri": "textures/ThinRing1_metallicRoughness.jpeg"
+    },
+    {
+      "uri": "textures/ThinRing1_normal.jpeg"
+    },
+    {
+      "uri": "textures/ThinRing2_metallicRoughness.jpeg"
+    },
+    {
+      "uri": "textures/ThinRing2_emissive.jpeg"
+    },
+    {
+      "uri": "textures/ThinRing3_metallicRoughness.jpeg"
+    },
+    {
+      "uri": "textures/ThinRing3_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Prongs",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.5229437163
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 5
+      },
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 1.8354977694
+        },
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 1.0
+        }
+      },
+      "name": "ThinRing",
+      "normalTexture": {
+        "index": 6
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 5
+      },
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 6.8572912216
+        }
+      },
+      "name": "ThinRing1",
+      "normalTexture": {
+        "index": 9
+      },
+      "occlusionTexture": {
+        "index": 8
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 7
+        },
+        "metallicRoughnessTexture": {
+          "index": 8
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 11
+      },
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 4.9822912216
+        }
+      },
+      "name": "ThinRing2",
+      "normalTexture": {
+        "index": 6
+      },
+      "occlusionTexture": {
+        "index": 10
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 10
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "ThinRing3",
+      "normalTexture": {
+        "index": 13
+      },
+      "occlusionTexture": {
+        "index": 12
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 12
+        },
+        "roughnessFactor": 0.1653679588
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Prongs_Prongs_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "ThinRing_ThinRing_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "ThinRing1_ThinRing1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "ThinRing2_ThinRing2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 16,
+            "POSITION": 15,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "ThinRing3_ThinRing3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 21,
+            "POSITION": 20,
+            "TANGENT": 22,
+            "TEXCOORD_0": 23
+          },
+          "indices": 24,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "ed75af9e45164058b02cc2ade59304bb.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        13.062073707580566,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        13.062073707580392,
+        2.1280819952142697e-06,
+        0.0,
+        0.0,
+        -2.1280819952142697e-06,
+        13.062073707580392,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Prongs"
+    },
+    {
+      "mesh": 0,
+      "name": "Prongs_Prongs_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        13.062073707580566,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        13.062073707580392,
+        2.1280819952142697e-06,
+        0.0,
+        0.0,
+        -2.1280819952142697e-06,
+        13.062073707580392,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "ThinRing"
+    },
+    {
+      "mesh": 1,
+      "name": "ThinRing_ThinRing_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        13.062073707580566,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        13.062073707580392,
+        2.1280819952142697e-06,
+        0.0,
+        0.0,
+        -2.1280819952142697e-06,
+        13.062073707580392,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "ThinRing1"
+    },
+    {
+      "mesh": 2,
+      "name": "ThinRing1_ThinRing1_0"
+    },
+    {
+      "children": [
+        10
+      ],
+      "matrix": [
+        13.062073707580566,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        13.062073707580392,
+        2.1280819952142697e-06,
+        0.0,
+        0.0,
+        -2.1280819952142697e-06,
+        13.062073707580392,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "ThinRing2"
+    },
+    {
+      "mesh": 3,
+      "name": "ThinRing2_ThinRing2_0"
+    },
+    {
+      "children": [
+        12
+      ],
+      "matrix": [
+        13.062073707580566,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        13.062073707580392,
+        2.1280819952142697e-06,
+        0.0,
+        0.0,
+        -2.1280819952142697e-06,
+        13.062073707580392,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "ThinRing3"
+    },
+    {
+      "mesh": 4,
+      "name": "ThinRing3_ThinRing3_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    },
+    {
+      "sampler": 0,
+      "source": 8
+    },
+    {
+      "sampler": 0,
+      "source": 9
+    },
+    {
+      "sampler": 0,
+      "source": 10
+    },
+    {
+      "sampler": 0,
+      "source": 11
+    },
+    {
+      "sampler": 0,
+      "source": 12
+    },
+    {
+      "sampler": 0,
+      "source": 13
+    }
+  ]
+}
