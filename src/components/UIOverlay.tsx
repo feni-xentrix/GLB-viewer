@@ -33,7 +33,7 @@ export default function UIOverlay() {
           { id: 'original', label: 'Customizer' },
           { id: 'white', label: 'White Diamond' },
           { id: 'yellow', label: 'Yellow Diamond' },
-          { id: 'diamond_obj', label: 'OBJ Model' }
+          { id: 'diamond_obj', label: 'Black Ring' }
         ].map((type) => {
           const isActive = ringType === type.id;
           return (
