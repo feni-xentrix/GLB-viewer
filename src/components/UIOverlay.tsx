@@ -28,11 +28,12 @@ export default function UIOverlay() {
         <h3 className="font-semibold text-[17px] text-[#1b253b]">Select Ring Design</h3>
       </div>
 
-      <div className="mb-8 grid grid-cols-3 gap-3">
+      <div className="mb-8 grid grid-cols-2 gap-3">
         {[
           { id: 'original', label: 'Customizer' },
           { id: 'white', label: 'White Diamond' },
-          { id: 'yellow', label: 'Yellow Diamond' }
+          { id: 'yellow', label: 'Yellow Diamond' },
+          { id: 'diamond_obj', label: 'OBJ Model' }
         ].map((type) => {
           const isActive = ringType === type.id;
           return (

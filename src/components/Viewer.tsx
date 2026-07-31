@@ -5,6 +5,7 @@ import { useGLTF } from '@react-three/drei';
 import RingModel from './RingModel';
 import WhiteRingModel from './WhiteRingModel';
 import YellowRingModel from './YellowRingModel';
+import DiamondRingObjModel from './DiamondRingObjModel';
 import { useConfiguratorStore } from '@/store/useConfiguratorStore';
 import { Suspense, useState, useEffect, useCallback, useRef } from 'react';
 import LoadingScreen from './LoadingScreen';
@@ -33,7 +34,7 @@ function ProgressTracker({ onLoaded }: { onLoaded: () => void }) {
 
 export default function Viewer() {
   const ringType = useConfiguratorStore((state) => state.ringType);
-  const isDiamond = ringType === 'white' || ringType === 'yellow';
+  const isDiamond = ringType === 'white' || ringType === 'yellow' || ringType === 'diamond_obj';
   const [isLoaded, setIsLoaded] = useState(false);
   const handleLoaded = useCallback(() => setIsLoaded(true), []);
 
@@ -76,6 +77,7 @@ export default function Viewer() {
               <Center>
                 {ringType === 'white' && <WhiteRingModel />}
                 {ringType === 'yellow' && <YellowRingModel />}
+                {ringType === 'diamond_obj' && <DiamondRingObjModel />}
               </Center>
             )}
             <ContactShadows
