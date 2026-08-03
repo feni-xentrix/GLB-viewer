@@ -15,19 +15,29 @@ useGLTF.preload('/models/ring/scene.gltf');
 useGLTF.preload('/models/ring/white.glb');
 useGLTF.preload('/models/ring/yellow.glb');
 
-// ProgressTracker lives INSIDE Canvas — reads useProgress, updates parent via stable ref
+// ProgressTracker lives INSIDE Canvas — reads useProgress via subscribe to avoid React render warnings
 function ProgressTracker({ onLoaded }: { onLoaded: () => void }) {
-  const { active } = useProgress();
-  // Store callback in a ref so the effect never re-runs due to a new function reference
   const onLoadedRef = useRef(onLoaded);
   useEffect(() => { onLoadedRef.current = onLoaded; });
 
   useEffect(() => {
-    if (!active) {
+    // Subscribe to the store directly to avoid "setState during render" warnings
+    const unsubscribe = useProgress.subscribe((state) => {
+      if (!state.active) {
+        // Delay slightly to ensure models are fully mounted
+        const t = setTimeout(() => onLoadedRef.current(), 400);
+        // We shouldn't clear timeout on unsubscribe to ensure it completes, 
+        // but for cleanup we can attach it to a ref or just let it fire (since onLoaded is safe).
+      }
+    });
+    
+    // Also check initial state
+    if (!useProgress.getState().active) {
       const t = setTimeout(() => onLoadedRef.current(), 400);
-      return () => clearTimeout(t);
     }
-  }, [active]); // ← only depends on `active`, not on the callback
+    
+    return () => unsubscribe();
+  }, []);
 
   return null;
 }
